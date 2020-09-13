@@ -764,7 +764,7 @@ module.exports = function (myapi, myadapter) {
                     type: "state",
                     common: {
                         name: "Last seen",
-                        type: "date",
+                        type: "string",
                         read: true,
                         write: false
                     }
@@ -940,7 +940,7 @@ module.exports = function (myapi, myadapter) {
                     type: "state",
                     common: {
                         name: "Time",
-                        type: "date",
+                        type: "string",
                         read: true,
                         write: false
                     }
@@ -1128,7 +1128,7 @@ module.exports = function (myapi, myadapter) {
                         type: "state",
                         common: {
                             name: "Time",
-                            type: "date",
+                            type: "string",
                             read: true,
                             write: false
                         }
